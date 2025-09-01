@@ -52,7 +52,7 @@ export default function Home() {
             { id: 1, title: 'Total Supply', description: '1 Billion Tokens' },
             { id: 2, title: 'Liquidity', description: '20% Allocated' },
             { id: 3, title: 'Development', description: '15% Allocated' },
-            { id: 4, title: 'Marketing', description: '10% Allocated' },
+            { id: 4, title: 'Marketing', description: '10% Allocated' }
           ]}
         />
       </div>
@@ -65,7 +65,7 @@ export default function Home() {
           columns={[
             { items: [{ label: 'Privacy Policy', onClick: () => alert('Privacy clicked') }, { label: 'Terms of Service', onClick: () => alert('Terms clicked') }] },
             { items: [{ label: 'Twitter', onClick: () => alert('Twitter clicked') }, { label: 'Reddit', onClick: () => alert('Reddit clicked') }] },
-            { items: [{ label: 'Discord', onClick: () => alert('Discord clicked') }, { label: 'Telegram', onClick: () => alert('Telegram clicked') }] },
+            { items: [{ label: 'Discord', onClick: () => alert('Discord clicked') }, { label: 'Telegram', onClick: () => alert('Telegram clicked') }] }
           ]}
           copyrightText="© 2023 MemeCoin Spark"
           onPrivacyClick={() => alert('Privacy policy clicked!')}
