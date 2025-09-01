@@ -1,7 +1,7 @@
 use client
 
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
-import NavbarStyleApple from '@/components/navigation/NavbarStyleApple/NavbarStyleApple';
+import NavbarStyleApple from '@/components/navigation/NavbarStyleApple';
 import TokenBillboardHero from '@/components/sections/layouts/hero/TokenBillboardHero';
 import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
